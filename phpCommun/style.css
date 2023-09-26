@@ -1,0 +1,227 @@
+html {
+	height:100%;
+}
+
+body {
+	padding:0px;
+	margin:0px;
+	height:100%;
+}
+
+* {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, 'Lucida Grande', Arial, sans-serif; color: #000000;
+}
+
+input {
+	border-style: solid;
+	border-width : 1px;
+	border-color : #AAAAAA;
+}
+
+.lienFondVert {
+	color:#EEEEEE;
+	text-decoration: underline;
+}
+
+.lienFondVert:hover {
+	color:#006573;
+	text-decoration: underline;
+	BACKGROUND:#EEEEEE;
+}
+
+.lienFondBlanc {
+	color:#006573;
+	text-decoration: underline;
+}
+
+.lienFondBlanc:hover {
+	color:#EEEEEE;
+	text-decoration: underline;
+	BACKGROUND:#006573;
+}
+
+.tableLoginGSS {
+	width:100%;
+	height:100%;
+	BACKGROUND:#006573;
+}
+
+.tableLoginGSS tr td {
+	text-align: center;
+}
+
+.tableBandeauHaut {
+	width:100%;
+	height:5%;
+	BACKGROUND:#006573;
+}
+
+.tableBandeauHaut tr td {
+	color:#EEEEEE;
+}
+
+.spanNomStock, .spanTitreAdministration {
+	color:#EEEEEE;
+	FONT-SIZE: 20px;
+}
+
+a {
+	TEXT-DECORATION:none;COLOR: #83112A;
+}
+
+a:hover {
+	COLOR: #1C6FBD;
+}
+
+.tableCommune {
+	border-collapse:separate;
+}
+
+.tableCommune tr th {
+	padding:4px;
+	FONT-SIZE: 10px;
+	padding-left:10px;
+	padding-right:10px;
+	BACKGROUND:#f4d4ad;
+}
+
+.tableCommune tr {
+	BACKGROUND:#f4e4d0;
+}
+
+.tableCommune tr:hover {
+	BACKGROUND:#f4d4ad;
+}
+
+.tableCommune tr td {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+button {
+	padding:6px 0 6px 0;
+	color:#fff;
+	cursor:pointer;
+	border-radius:2px;
+	border:none;
+	width:100px;
+}
+
+.bouton {
+	background:#56abac;
+}
+
+.bouton:focus {
+	outline: none;
+}
+
+.bouton:hover {
+	background:#f4d4ad;
+}
+
+.boutonValider {
+	background:#298A08;
+}
+
+.boutonValider:hover {
+	background:#00FF00;
+}
+
+.boutonAnnuler {
+	background:#d34836;
+}
+
+.boutonAnnuler:hover {
+	background:#FF0000;
+}
+
+.menu {
+	color:#FFFFFF;
+	display:block;
+	width:300px;
+	height:30px;
+	font-weight:bold;
+	BACKGROUND:#56abac;
+	text-align: center;
+	line-height: 30px;
+}
+
+.menu:hover {
+	BACKGROUND:#f4d4ad;
+}
+
+.tdDroiteStock {
+	border-left: 2px solid #006573;
+	FONT-SIZE: 10px;
+	font-weight:bold;
+}
+
+.tableStockADroite {
+	border-collapse:separate;
+}
+
+.tableStockADroite tr th {
+	padding:4px;
+	FONT-SIZE:9px;
+}
+
+.tableStockADroite tr {
+	BACKGROUND:#f4d4ad;
+	font-weight:normal;
+}
+
+.tableStockADroite tr td {
+	padding:4px;
+	BACKGROUND:#f4e4d0;
+	FONT-SIZE: 9px;
+}
+
+.tdQuantite {
+	text-align:center;
+}
+
+.tdQuantiteNegative {
+	text-align:center;
+	font-weight:bold;
+	color:#EE0000;
+}
+
+.tdQuantiteVirtuelle {
+	text-align:center;
+	color:#006573;
+}
+
+.tdQuantiteVirtuelleNegative {
+	text-align:center;
+	font-weight:bold;
+	color:#EE0000;
+}
+
+.tdPrix {
+	text-align:right;
+}
+
+.attention {
+	color:#EE0000;
+}
+
+.attention b {
+	color:#EE0000;
+}
+
+h1 {
+	color:#006573;
+	FONT-SIZE: 15px;
+	text-shadow : 2px 2px 5px #aaa;
+}
+
+.erreur {
+	color:red;
+	font-weight:bold;
+}
+
+img  {
+    border:0px;
+}
